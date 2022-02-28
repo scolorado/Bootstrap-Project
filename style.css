@@ -1,3 +1,10 @@
 body{
   background-color: #cae0ed;
 }
+.basic{
+  color: white;
+  text-decoration: none;
+}
+.basic:hover{
+  color: white;
+}
