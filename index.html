@@ -97,10 +97,12 @@
         <button type="button" class="btn btn-primary" disabled>Option 2 Log Sheet
           <span class="badge bg-dark">Weekly</span>
         </button>
-        <br><br>
         <button type="button" class="btn btn-primary">
           <a class="basic" target="_blank" href="https://drive.google.com/file/d/1jY_hm_xLLOWmTOqXigIpiInVejVjsaln/view">Option 2 Log Sheet</a>
           <span class="badge bg-dark">Monthly</span>
+        </button>
+        <button type="button" class="btn btn-primary" disabled>Option 2
+          <span class="badge bg-dark">Physcial Education</span>
         </button>
       </div>
     </div>
@@ -109,7 +111,7 @@
 
 <br>
 
-<div class="container-fluid mt-3">
+<div class="container-fluid">
   <div class="row">
     <div class="col-lg-6">
       <table class="table table-hover">
@@ -183,15 +185,38 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img\soccer.jpg" alt="Girls Soccer Team" class="d-block" style="width:100%">
+            <img src="img\soccer.jpg" id="photo" alt="Girls Soccer Team" class="d-block" style="width:100%">
           </div>
           <div class="carousel-item">
-            <img src="img\hockey.jpg" alt="Hockey Team" class="d-block" style="width:100%">
+            <img src="img\hockey.jpg" id="photo" alt="Hockey Team" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="img\tennis.jpg" id="photo" alt="Girls Tennis Team" class="d-block" style="width:100%">
           </div>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
     </div>
   </div>
 </div>
+
+<br>
+<div class="container-fluid">
+  <div class="d-flex">
+    <div class="flex-grow-1">
+    <div class="watermark">
+      <h4>Freehold Township High School</h4>
+      <p>LOCATION 281 Elton-Adelphia Rd. Freehold, NJ 07728 • PHONE 732-431-8460 • FAX 732-780-5314</p>
+    </div>
+  </div>
+  </div>
+</div>
+
+
 
 <script>
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
