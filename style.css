@@ -21,3 +21,10 @@ body{
   width: 100%;
   text-align: center;
 }
+#butn{
+  background-color: white;
+}
+.cools{
+  color:#5285eb;
+  text-decoration: none;
+}
